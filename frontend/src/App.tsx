@@ -2,7 +2,7 @@ import {useCallback,useEffect,useMemo,useState} from 'react';
 import type {FormEvent,ReactNode} from 'react';
 import {Activity,AlertTriangle,ArrowUpRight,BarChart3,Bell,BookOpen,BriefcaseBusiness,CalendarDays,Check,ChevronDown,ClipboardList,Clock3,Code2,Coins,FileText,FolderKanban,HelpCircle,LayoutDashboard,LifeBuoy,Menu,MoreHorizontal,Plus,Search,Settings,ShieldCheck,Sparkles,Users,WandSparkles,X,Zap} from 'lucide-react';
 
-const API='http://127.0.0.1:8000';
+const API='https://astraai-backend-kxmi.onrender.com';
 type RequestItem={id:number;client_name:string;client_email:string;business_name:string;description:string;status:string;created_at:string};
 type Project={id:number;request_id:number;name:string;status:string;created_at:string};
 const groups=[
